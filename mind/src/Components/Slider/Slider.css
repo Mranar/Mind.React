@@ -1,0 +1,39 @@
+.dr_slider {
+   width: 100%;
+
+
+}
+
+.slick-slider{
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+.slick-arrow{
+display: none!important;
+}
+
+.slider_image img{
+    width: 100%;
+    height: 75vh;
+
+}
+
+.slick-dots{
+width: 100%;
+}
+
+
+.slick-list {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.slick-list img {
+
+
+}

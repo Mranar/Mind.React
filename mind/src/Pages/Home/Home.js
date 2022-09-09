@@ -1,9 +1,11 @@
 import React from 'react';
-import Slider from "../../Components/Slider/Slider";
+import SimpleSlider from "../../Components/Slider/Slider";
+
 const Home = () => {
     return (
-        <div>
-            <Slider/>
+        <div style={{width: '100%'}}>
+            <SimpleSlider>
+            </SimpleSlider>
         </div>
     );
 };

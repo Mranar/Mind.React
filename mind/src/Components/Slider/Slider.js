@@ -1,38 +1,41 @@
-import React from 'react';
+import React, { Component } from "react";
+import Slider from "react-slick";
 import './Slider.css'
-const Slider = () => {
-    return (
-        <div className={'slider__doctor'} >
-            <div id="demo" className="carousel slide" data-bs-ride="carousel">
 
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+
+export default class SimpleSlider extends Component {
+    render()  {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+
+
+
+
+
+        };
+
+        return (
+        <div className={"dr_slider "}>
+
+            <Slider  {...settings} >
+                <div className={"slider_image"}>
+                    <img  alt={"SliderImage"}  src={'https://picsum.photos/id/1065/1600/500'}/>
+                </div>
+                <div className={"slider_image"}>
+                    <img  alt={"SliderImage"} src={'https://picsum.photos/id/1066/1600/500'}/>
+                </div>
+                <div className={"slider_image"}>
+                    <img  alt={"SliderImage"} src={'https://picsum.photos/id/1067/1600/900'}/>
                 </div>
 
-                <div className="carousel-inner "   style={{height:'70vh'}}>
-                    <div className="carousel-item active">
-                        <img src={require("../../Assets/Images/ezgif-3-e8d5248497.jpg")} alt="Los Angeles" className="d-block" style={{width:"100%"}}/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src={require("../../Assets/Images/ezgif-3-be159e0905.png")} alt="Chicago" className="d-block" style={{width:"100%"}}/>
-                    </div>
-                    <div className="carousel-item">
-                        <img src={require("../../Assets/Images/ezgif-3-e8d5248497.jpg")} alt="New York" className="d-block" style={{width:"100%"}}/>
-                    </div>
-                </div>
-
-                <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon"></span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span className="carousel-control-next-icon"></span>
-                </button>
-            </div>
-
+            </Slider>
         </div>
     );
+    }
 };
 
-export default Slider;

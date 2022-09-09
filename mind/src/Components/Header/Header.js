@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Style/Main.css'
+import "./Header.css"
 
 
 
@@ -18,15 +18,9 @@ const Header = () => {
                     <div className="menu">
                         <li><a href="/">Home</a></li>
                         <li><a href="/">Psycologists</a></li>
-                        <li className="services">
-                            <a href="/">Services</a>
-
-                            <ul className="dropdown">
-                                <li><a href="/">About </a></li>
-                                <li><a href="/">Blog</a></li>
-                                <li><a href="/">Contact</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="/">About </a></li>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/">Contact</a></li>
                         <li><a href="/">Login</a></li>
                         <li><a href="/">Register</a></li>
                     </div>
