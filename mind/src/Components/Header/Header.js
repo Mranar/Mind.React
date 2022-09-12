@@ -5,7 +5,7 @@ import "./Header.css"
 
 const Header = () => {
     return (
-        <div className={'header'}>
+        <div className={'header fixed'}>
             <nav className="navbar">
 
                 <div className="logo">Mind</div>

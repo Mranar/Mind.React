@@ -1,12 +1,9 @@
 .footer_top{
     width: 100%;
-    height: 720px;
     position: relative!important;
 
 }
-.footer{
 
-}
 .shadow{
     background-color: black;
     opacity: .75;
@@ -23,10 +20,11 @@
 
 .contact_info{
     color: white!important;
-    background-color: #00d2eb;
     opacity: 1;
 
 }
+
+
 
 
 .footer_bottom{
@@ -36,5 +34,6 @@
 
 .working_time{
     background-color: #00d2eb!important;
+    font-weight: bold;
 
 }

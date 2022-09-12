@@ -5,12 +5,27 @@
     justify-content: space-between;
     padding: 20px;
     background-color: #ecf4ff;
-    color: #fff;
+    border-radius: 2%;
     z-index: 9999;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        position: relative;
+    }
+}
+
 .nav-links a {
     color: #fff;
 }
+
+
+
+
 /* LOGO */
 .logo {
     font-size: 32px;

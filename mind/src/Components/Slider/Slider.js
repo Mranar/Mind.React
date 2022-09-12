@@ -7,16 +7,10 @@ export default class SimpleSlider extends Component {
     render()  {
         const settings = {
             dots: true,
-            infinite: true,
-            speed: 500,
+            speed: 1000,
             slidesToShow: 1,
             slidesToScroll: 1,
             fade: true,
-
-
-
-
-
         };
 
         return (
@@ -24,13 +18,13 @@ export default class SimpleSlider extends Component {
 
             <Slider  {...settings} >
                 <div className={"slider_image"}>
-                    <img  alt={"SliderImage"}  src={'https://picsum.photos/id/1065/1600/500'}/>
+                    <img  alt={"SliderImage"}  src={require('../../Assets/Images/slider.jpg')}/>
                 </div>
                 <div className={"slider_image"}>
-                    <img  alt={"SliderImage"} src={'https://picsum.photos/id/1066/1600/500'}/>
+                    <img  alt={"SliderImage"} src={require('../../Assets/Images/slide3.jpg')}/>
                 </div>
                 <div className={"slider_image"}>
-                    <img  alt={"SliderImage"} src={'https://picsum.photos/id/1067/1600/900'}/>
+                    <img  alt={"SliderImage"} src={require('../../Assets/Images/slide2.jpg')}/>
                 </div>
 
             </Slider>
