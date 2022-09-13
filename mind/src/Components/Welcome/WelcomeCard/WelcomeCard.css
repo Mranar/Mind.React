@@ -6,7 +6,6 @@
 
 
 
-
 .welcome_card{
     border-radius: 5%;
     width: 500px;
@@ -16,6 +15,13 @@
     color: white!important;
     transition: 1s;
 }
+
+@media only screen and (max-width: 600px) {
+    .welcome_card {
+       width: 400px;
+    }
+}
+
 
 
 .welcome_card:hover {
