@@ -1,8 +1,46 @@
-.login_section{
+@media only screen and (max-width: 600px) {
+    .barrier {
+        display: none;
+    }
+}
 
+.login_elements{
+color: #00d2eb!important;
+}
+
+.login_elements li{
+    padding-top: 30px;
+
+}
+
+.login_elements label{
+    margin-right: 20px;
+}
+
+input::placeholder {
+    font-weight: lighter;
+    color: #00d2eb;
+    font-size: 1.1em;
+    text-align: center;
+}
+.login_elements input {
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
 }
 
 .login_box{
     align-items: center;
     height: 500px;
+}
+
+.submit_button{
+    width: 120px!important;
+    border-radius: 5px;
+    background-color: #00d2eb!important;
+    color: white!important;
+    border: 2px solid black;
 }

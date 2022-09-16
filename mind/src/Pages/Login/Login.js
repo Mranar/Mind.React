@@ -1,35 +1,39 @@
 import React from 'react';
 import './Login.css';
+import Barrier from "../../Components/UI/Barrier/Barrier";
+import backgroundImg from "../../Assets/Images/footer-bg.jpg";
+
 const Login = () => {
     return (
-        <div className={'login_section '}>
-            <div className={'container'}>
+       <div>
+           <Barrier/>
+           <div style={{ backgroundImage: `url(${backgroundImg})`  }} className={'login_section  '}>
+               <div className={'container  mt-5 '}>
 
-                    <form className={'login_form '}>
-                        <div className={'login_box row justify-content-center align-items-center'}>
-                        <div className={'col-lg-12  '}>
-                           <ul>
-                               <li>
-                                   <label for={'firstname'}>FirstName</label>
-                                   <input type={'text'} id={'firstname'}/>
-                               </li>
+                   <form className={'login_form  '}>
+                       <div className={'login_box row  '}>
+                           <div className={'col-lg-12 text-center '}>
+                               <h1 className={'text-center ms-4 pt-5'}>Login</h1>
+                               <ul className={'login_elements '}>
+                                   <li>
+                                       <input placeholder={'Username'} type={'text'} id={'username'}/>
+                                   </li>
 
-                               <li>
-                                   <label for={'sure_name'}>SureName</label>
-                                   <input  type={'text'} id={'sure_name'}/>
-                               </li>
+                                   <li>
+                                       <input  placeholder={'Password'}  type={'password'} id={'password'}/>
+                                   </li>
 
-                               <li>
-                                   <label>Submit</label>
-                                   <input type={"submit"} value={'Submit'}/>
-                               </li>
-                           </ul>
-                        </div>
-                        </div>
-                    </form>
+                                   <li>
+                                       <input className={'submit_button fw-bold'} type={"submit"} value={'Submit'}/>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </form>
 
-            </div>
-        </div>
+               </div>
+           </div>
+       </div>
     );
 };
 
