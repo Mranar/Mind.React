@@ -9,6 +9,8 @@ import Home from "./Pages/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
+import Psychologists from "./Pages/Psychologists/Psychologists";
+import About from "./Pages/About/About";
 
 const App = () => {
     return (
@@ -18,6 +20,8 @@ const App = () => {
                 <Route index element={<Home/>}/>
                 <Route path={'/login'} element={<Login/>}/>
                 <Route path={'/register'} element={<Register/>}/>
+                <Route path={'/psychologists'} element={<Psychologists/>}/>
+                <Route path={'/about'} element={<About/>}/>
             </Routes>
             <Footer></Footer>
         </BrowserRouter>
