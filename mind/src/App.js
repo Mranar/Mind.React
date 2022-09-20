@@ -11,6 +11,7 @@ import Login from "./Pages/Login/Login";
 import Register from "./Pages/Register/Register";
 import Psychologists from "./Pages/Psychologists/Psychologists";
 import About from "./Pages/About/About";
+import Blog from "./Pages/Blog/Blog";
 
 const App = () => {
     return (
@@ -22,6 +23,7 @@ const App = () => {
                 <Route path={'/register'} element={<Register/>}/>
                 <Route path={'/psychologists'} element={<Psychologists/>}/>
                 <Route path={'/about'} element={<About/>}/>
+                <Route path={'/blog'} element={<Blog/>}/>
             </Routes>
             <Footer></Footer>
         </BrowserRouter>
