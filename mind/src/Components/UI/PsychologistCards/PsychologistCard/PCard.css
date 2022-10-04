@@ -81,15 +81,14 @@ body {
     transition: 0.2s;
 }
 .social-icons li a:hover .fab {
-    color: #00d2eb!important;
+    color: #ace2ff!important;
+    transform: rotateY(360deg);
+
 }
 .social-icons li a .fab {
     transition: 0.8s;
 }
-.social-icons li a .fab:hover {
-    transform: rotateY(360deg);
-    color: #fff;
-}
+
 .card:hover li:nth-child(1) a {
     transition-delay: 0.1s;
 }

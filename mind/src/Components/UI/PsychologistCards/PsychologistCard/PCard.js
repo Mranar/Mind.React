@@ -5,42 +5,44 @@ const PCard = ({cardSrc , pfULLName  , pJob}) => {
 
 
             <div className="card-wrapper ">
+                <a href={'./psychologistsDetails'}>
+                    <div className="card ">
 
-                <div className="card ">
+                        <div className="card-image">
+                            <img style={{width: '100%' ,height:'100%' , objectFit:'cover'}} src={`${cardSrc}`} alt="profile one"/>
+                        </div>
 
-                    <div className="card-image">
-                        <img style={{width: '100%' ,height:'100%' , objectFit:'cover'}} src={`${cardSrc}`} alt="profile one"/>
-                    </div>
+                        <ul className="social-icons">
+                            <li>
+                                <a href="">
+                                    <i className="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i className="fab fa-brands fa-square-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i className="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i className="fa-brands fa-vk fab"></i>
+                                </a>
+                            </li>
+                        </ul>
 
-                    <ul className="social-icons">
-                        <li>
-                            <a href="">
-                                <i className="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i className="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i className="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i className="fab fa-dribbble"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div className="details">
-                        <h2>{pfULLName}
+                        <div className="details">
+                            <h2>{pfULLName}
                                 <span className={'job-title'}>{pJob}</span>
-                        </h2>
+                            </h2>
+                        </div>
                     </div>
-                </div>
+
+                </a>
             </div>
 
     );

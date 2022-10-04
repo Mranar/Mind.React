@@ -3,7 +3,7 @@ import './Footer.css';
 import backgroundImg from "../../Assets/Images/footer-bg.jpg";
 const Footer = () => {
     return (
-        <div style={{ backgroundImage: `url(${backgroundImg})`  }} className={"footer mt-5"}>
+        <div style={{ backgroundImage: `url(${backgroundImg})`  }} className={"footer "}>
           <div className={'shadow'}>
               <div  className={"footer_top  container"}>
                  <div className={'row contact_infos justify-content-between '}>

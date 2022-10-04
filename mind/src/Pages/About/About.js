@@ -1,10 +1,12 @@
 import React from 'react';
 import Barrier from "../../Components/UI/Barrier/Barrier";
 import './About.css'
+import SimpleSlider from "../../Components/Slider/Slider";
 const About = () => {
     return (
         <div className={'about'}>
             <Barrier></Barrier>
+            <SimpleSlider/>
        <div className={'container-fluid'}>
            <div className={'row text-center'}>
                <div className={'about_top my-5 col-lg-12'}>
@@ -13,19 +15,26 @@ const About = () => {
                </div>
 
                <div className={'about_bottom my-5 col-lg-12'}>
-                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere enim eu felis pretium porta. Morbi porta in lacus sit amet tristique. Vestibulum aliquam quam at justo dignissim rhoncus. Phasellus eget suscipit sapien. Nulla accumsan tortor quis quam faucibus fermentum. Cras sagittis lacinia egestas. Duis porttitor lacus enim, vitae pulvinar felis interdum sed. Pellentesque tincidunt rhoncus metus vitae finibus. Donec blandit tellus et suscipit lobortis. Proin a lorem dolor. Aenean dignissim velit ut nunc hendrerit, eu faucibus elit ullamcorper. Duis posuere sapien nec tortor rhoncus mollis.
 
-                       Why do we use it?
-                       It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                       Suspendisse in purus fringilla, congue nisl id, iaculis tellus. Maecenas id leo id turpis suscipit semper sed at mi. Curabitur dapibus semper elit at hendrerit. Pellentesque quis tincidunt sapien. Curabitur elementum sapien at turpis laoreet hendrerit. Nunc metus dui, aliquet a suscipit eget, pretium et massa. In hac habitasse platea dictumst. Sed ultrices ullamcorper viverra. Vestibulum vel odio nec augue luctus convallis vel eu est. Curabitur mollis ex in mattis rutrum. Nunc id urna semper, mattis nisi a, venenatis libero. Phasellus varius orci non tellus scelerisque, condimentum fringilla quam semper. Nam aliquet turpis egestas, tincidunt justo sit amet, imperdiet augue.
 
+                       Vestibulum nibh augue, tempus in massa non, dignissim ultrices mi. Suspendisse potenti. Sed aliquam non sapien ut pretium. Cras a tortor ut ex luctus porta ac vitae odio. Donec euismod egestas mi sit amet ultricies. Aenean aliquet urna nunc, vitae maximus arcu vulputate et. Maecenas congue tempus tristique.
 
-                       Where does it come from?
-                       Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                       In ac tortor augue. Suspendisse eleifend metus tempus libero pretium elementum. Cras tempor lacus et enim accumsan porta. Aenean et lectus velit. Sed vel leo turpis. Donec quis leo lobortis, sagittis mauris eget, volutpat augue. Ut maximus tempor augue, non hendrerit tortor convallis id. Donec iaculis posuere aliquet. Donec accumsan libero ac tempus volutpat. Vestibulum euismod sagittis nibh in maximus. Ut a mi non nisi posuere varius. Vestibulum non mauris at eros mollis tempor.
 
-                       The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                       Suspendisse velit lectus, vulputate tempor pharetra id, rhoncus sit amet tellus. Nullam ornare eget urna ut fringilla. Ut at commodo diam. Maecenas commodo volutpat erat, vitae tempor lectus feugiat vitae. Pellentesque congue blandit nulla vitae fermentum. Integer scelerisque consequat lectus non auctor. Aliquam volutpat dolor ut ante ultricies volutpat. Praesent ornare eu sem vel dapibus. Donec faucibus risus magna, eget gravida dui eleifend non. Donec non sodales odio, ac tincidunt lectus.
 
-                       Where can I get some?
-                       There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                       Generated 5 paragraphs, 379 words, 2576 bytes of Lorem IpsumLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere enim eu felis pretium porta. Morbi porta in lacus sit amet tristique. Vestibulum aliquam quam at justo dignissim rhoncus. Phasellus eget suscipit sapien. Nulla accumsan tortor quis quam faucibus fermentum. Cras sagittis lacinia egestas. Duis porttitor lacus enim, vitae pulvinar felis interdum sed. Pellentesque tincidunt rhoncus metus vitae finibus. Donec blandit tellus et suscipit lobortis. Proin a lorem dolor. Aenean dignissim velit ut nunc hendrerit, eu faucibus elit ullamcorper. Duis posuere sapien nec tortor rhoncus mollis.
+
+                       Suspendisse in purus fringilla, congue nisl id, iaculis tellus. Maecenas id leo id turpis suscipit semper sed at mi. Curabitur dapibus semper elit at hendrerit. Pellentesque quis tincidunt sapien. Curabitur elementum sapien at turpis laoreet hendrerit. Nunc metus dui, aliquet a suscipit eget, pretium et massa. In hac habitasse platea dictumst. Sed ultrices ullamcorper viverra. Vestibulum vel odio nec augue luctus convallis vel eu est. Curabitur mollis ex in mattis rutrum. Nunc id urna semper, mattis nisi a, venenatis libero. Phasellus varius orci non tellus scelerisque, condimentum fringilla quam semper. Nam aliquet turpis egestas, tincidunt justo sit amet, imperdiet augue.
+
+                       Vestibulum nibh augue, tempus in massa non, dignissim ultrices mi. Suspendisse potenti. Sed aliquam non sapien ut pretium. Cras a tortor ut ex luctus porta ac vitae odio. Donec euismod egestas mi sit amet ultricies. Aenean aliquet urna nunc, vitae maximus arcu vulputate et. Maecenas congue tempus tristique.
+
+                       In ac tortor augue. Suspendisse eleifend metus tempus libero pretium elementum. Cras tempor lacus et enim accumsan porta. Aenean et lectus velit. Sed vel leo turpis. Donec quis leo lobortis, sagittis mauris eget, volutpat augue. Ut maximus tempor augue, non hendrerit tortor convallis id. Donec iaculis posuere aliquet. Donec accumsan libero ac tempus volutpat. Vestibulum euismod sagittis nibh in maximus. Ut a mi non nisi posuere varius. Vestibulum non mauris at eros mollis tempor.
+
+                       Suspendisse velit lectus, vulputate tempor pharetra id, rhoncus sit amet tellus. Nullam ornare eget urna ut fringilla. Ut at commodo diam. Maecenas commodo volutpat erat, vitae tempor lectus feugiat vitae. Pellentesque congue blandit nulla vitae fermentum. Integer scelerisque consequat lectus non auctor. Aliquam volutpat dolor ut ante ultricies volutpat. Praesent ornare eu sem vel dapibus. Donec faucibus risus magna, eget gravida dui eleifend non. Donec non sodales odio, ac tincidunt lectus.
+                   </p>
                </div>
 
            </div>

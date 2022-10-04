@@ -5,7 +5,9 @@
 }
 
 
-
+.register_section{
+    background-color: #ace2ff ;
+}
 
 
 .register_elements{
@@ -14,7 +16,7 @@
 }
 
 .register_elements li{
-    padding-top: 30px;
+    padding-top: 20px;
 
 }
 
@@ -43,6 +45,7 @@ input::placeholder {
     align-items: center;
     height: 500px;
 }
+
 
 .submit_button{
     width: 120px!important;
