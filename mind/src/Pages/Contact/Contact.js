@@ -22,7 +22,7 @@ const Contact = () => {
                                    htmlFor="inputContact2">Email</label>
                             <div className="col-sm-10">
                                 <input className="form-control" id="inputContact2" type="email"
-                                       value="mail@example.com"/>
+                                       defaultValue="mail@example.com"/>
                             </div>
                         </div>
                         <div className="form-group">

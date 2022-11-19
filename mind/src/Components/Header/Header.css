@@ -19,6 +19,10 @@
     }
 }
 
+.nav-links {
+    margin: 0;
+}
+
 .nav-links a {
     color: #fff;
 }

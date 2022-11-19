@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+    .thumb96  {
+     object-fit: fill;
+     width: 100%!important;
+     height: 60vh!important;
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .form_text_area  {
+     width: 100%;
+    }
+  }
+
+
+ 

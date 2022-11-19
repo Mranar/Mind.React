@@ -1,47 +1,61 @@
-.psycho_details{
-}
-body{
-    margin-top:20px;
+.psycho_details {}
 
-}
-.panel-default {
-
-    background-color: #ace2ff;
-
+body {
+    margin-top: 20px;
+    background-color: aliceblue;
 
 }
 
-.panel-top{
+.panel-default {}
+
+.panel-top {
     margin-top: 30px;
 }
 
-.panel {
-    box-shadow: 0 3px 1px -2px rgba(0,0,0,.14),0 2px 2px 0 rgba(0,0,0,.098),0 1px 5px 0 rgba(0,0,0,.084);
+.panel {}
 
-
-}
 .thumb96 {
     margin-top: 10px;
-    width: 110px!important;
-    height: 110px!important;
-}
-
-
-.psycho_info{
-background-color: #ace2ff;
-box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+    width: 100% !important;
+    height: 80vh !important;
+    object-fit: cover;
 
 }
 
-.buy_btn{
-    background-color: #00d2eb!important;
+@media only screen and (max-width: 600px) {
+    .thumb96 {
+        width: 100% !important;
+        height: 40vh !important;
+    }
 }
 
-.panel-body{
+.psycho_info {}
 
-     box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+.bg-img {}
+
+.buy_btn {
+    background-color: deepskyblue;
+    width: 120px;
+    height: 40px;
 }
 
-.psycho_border{
-    box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, rgb(51, 51, 51) 0 0 0 3px;
+.panel-body {}
+
+.psycho_border {
+    border: 1px solid silver;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+.psycho_infos {}
+
+
+.psycho_select {
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url("https://i.pinimg.com/564x/6f/07/11/6f071101cecc43a5d81fe5d90a31c672.jpg");
+    background-size: cover;
+    text-align: center;
 }

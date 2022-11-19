@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './PCard.css'
-const PCard = ({cardSrc , pfULLName  , pJob}) => {
+const PCard = ({cardSrc , pfULLName, PId  , pJob}) => {
     return (
 
 
             <div className="card-wrapper ">
-                <a href={'./psychologistsDetails'}>
+                <Link to={`./psychologistsDetails/${PId}`}>
                     <div className="card ">
 
                         <div className="card-image">
@@ -42,7 +43,7 @@ const PCard = ({cardSrc , pfULLName  , pJob}) => {
                         </div>
                     </div>
 
-                </a>
+                </Link>
             </div>
 
     );

@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './WelcomeCard.css'
 
 const WelcomeCard = ({welcomeIcon , welcomeBody , welcomeHead,welcomeLink}
 ) => {
     return (
-        <a href={welcomeLink}>
-        <div className={'welcome_card  py-4  d-flex p-5 m-5 align-items-center  '}>
+        <Link to={welcomeLink}>
+        <div className={'welcome_card  py-4  d-flex p-5 m-md-5 align-items-center mb-5 mb-md-0 '}>
 
              <div className={' me-5 mt-5'}>
                  <i  className={' welcome_card_addition '+ welcomeIcon}></i>
@@ -19,7 +20,7 @@ const WelcomeCard = ({welcomeIcon , welcomeBody , welcomeHead,welcomeLink}
              </div>
 
         </div>
-        </a>
+        </Link>
     );
 };
 
